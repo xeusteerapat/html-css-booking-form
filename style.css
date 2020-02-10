@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-image: url("img/skogafoss.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 600px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  top: 40px;
+}
+
+.container h1 {
+  color: #fff;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 1rem 0 0.5rem 0;
+  color: #fff;
+}
+
+#currency {
+  color: #ffa600;
+}
+
+.flight {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  font-family: "Roboto Mono", monospace;
+}
+
+.flight select {
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+.date {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.date input {
+  width: 100%;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+.passenger {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+
+.passenger input {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+.passenger select {
+  width: 100%;
+}
+
+select {
+  height: 30px;
+}
+
+input {
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-group select {
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+}
+
+.btn {
+  position: relative;
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  align-self: flex-start;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px 10px 20px;
+  border-radius: 5px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #ffa600;
+  color: white;
+  border: none;
+  position: absolute;
+  right: 290px;
+  top: 5px;
+}
+
+button:hover {
+  background-color: #f8c669;
+  color: white;
+}

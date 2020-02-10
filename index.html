@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Booking Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your next adventure is here!</h1>
+      <form action="">
+        <div class="flight">
+          <div class="form-group">
+            <label for="">Flying Form</label>
+            <select name="">
+              <option value="">BKK (Suvarnabhumi airport)</option>
+              <option value="">CNX (Chiang Mai International Airport)</option>
+              <option value="fiat">HKT (phuket international airport)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="">To</label>
+            <select name="">
+              <option value="">KEF (Keflavík International Airport)</option>
+              <option value="">AEY (Akureyri Airport)</option>
+              <option value="">EGS (Egilsstaðir Airport)</option>
+            </select>
+          </div>
+        </div>
+        <div class="date">
+          <div class="form-group">
+            <label for="start">Departing:</label>
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="2020-02-10"
+              min="2020-02-10"
+              max="2020-12-31"
+            />
+          </div>
+          <div class="form-group">
+            <label for="start">Returning:</label>
+            <input
+              type="date"
+              id="start"
+              name="trip-start"
+              value="yyyy-mm-dd"
+              min="2020-02-10"
+              max="2020-12-31"
+            />
+          </div>
+        </div>
+        <div class="passenger">
+          <div class="form-group">
+            <label for="">Adult</label>
+            <input type="number" name="" id="" value="1" />
+          </div>
+          <div class="form-group">
+            <label for="">Child</label>
+            <input type="number" name="" id="" value="0" />
+          </div>
+          <div class="form-group">
+            <label for="">Infant</label>
+            <input type="number" name="" id="" value="0" />
+          </div>
+          <div class="form-group">
+            <label for="" id="currency">Currency</label>
+            <select name="">
+              <option value="volvo">THB</option>
+              <option value="saab">USD</option>
+              <option value="fiat">EUR</option>
+            </select>
+          </div>
+        </div>
+      </form>
+      <div class="btn">
+        <button>SEARCH</button>
+      </div>
+    </div>
+  </body>
+</html>
